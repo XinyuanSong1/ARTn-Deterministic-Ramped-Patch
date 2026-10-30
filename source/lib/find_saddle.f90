@@ -1071,6 +1071,10 @@ subroutine guess_direction ( )
 END SUBROUTINE guess_direction
 
 !> ART deterministic search 
+! Reference:
+!    Alexander, Kathleen C., and Christopher A. Schuh. 
+!    "Towards the reliable calculation of residence time for off-lattice kinetic Monte Carlo simulations." 
+!    Modelling and Simulation in Materials Science and Engineering 24.6 (2016): 065014.
 ! In this method, only the selected atom (1 atom) will be moved initially
 ! New variables are defined:
 !     setenv NDIRS --> how many directions in one sphere search.
