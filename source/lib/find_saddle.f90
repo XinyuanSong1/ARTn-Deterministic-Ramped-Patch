@@ -7,6 +7,9 @@
 !!    or http://www.gnu.org/copyleft/gpl.txt .
 !!    For the list of contributors, see ~/AUTHORS
 
+!!    Modified in 2026 by Xinyuan Song (Northwestern University):
+!!    deterministic initial search directions and ramped escape threshold.
+
 !> ART Module saddles
 
 ! $Revision$
