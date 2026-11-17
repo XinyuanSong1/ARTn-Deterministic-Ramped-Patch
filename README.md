@@ -53,7 +53,7 @@ This function automatically ramps the eigenvalue threshold, facilitating escapes
 ### 3c. Example `bart.sh` Configuration Block
 Copy the following block into your `bart.sh` file to activate both methods with recommended parameters.
 
-```bash
+```csh
 # ==============================================================================
 # [NEW FUNCTIONALITY] Configuration Block
 # ==============================================================================
@@ -72,6 +72,7 @@ setenv EIGEN_THRESH_INTERVAL    -0.1    # Step gradient for adjustment
 setenv EIGEN_THRESH_MIN         -1.0    # Absolute limit for ramping
 
 # ==============================================================================
+```
 
 ## 4. Modified Files
 This patch replaces the following ARTn files:
