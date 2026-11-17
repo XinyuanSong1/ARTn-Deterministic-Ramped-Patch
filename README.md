@@ -81,7 +81,7 @@ This patch replaces the following ARTn files:
 
 ## 5. Citation
 If you use this patch, please cite:
-- X. Song, S. Patala and C. A. Schuh, "Spectral insights into grain boundary self-diffusivity in polycrystals" (2026).
+- X. Song, S. Patala and C. A. Schuh, "Spectral insights into grain boundary self-diffusivity in polycrystals" Nature Communications (2026).
 
 Please also cite the original ARTn publications.
 
