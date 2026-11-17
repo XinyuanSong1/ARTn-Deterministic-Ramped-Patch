@@ -72,3 +72,19 @@ setenv EIGEN_THRESH_INTERVAL    -0.1    # Step gradient for adjustment
 setenv EIGEN_THRESH_MIN         -1.0    # Absolute limit for ramping
 
 # ==============================================================================
+
+## 4. Modified Files
+This patch replaces the following ARTn files:
+- `source/lib/find_saddle.f90`: deterministic search directions and ramped escape threshold
+- `source/lib/read_parameters.f90`: new global variables 
+
+## 5. Citation
+If you use this patch, please cite:
+- X. Song, S. Patala and C. A. Schuh, "Spectral insights into grain boundary self-diffusivity in polycrystals" (2026).
+
+Please also cite the original ARTn publications.
+
+## 6. License and Credits
+This repository contains modified versions of source files from ARTn (Activation-Relaxation Technique nouveau), Copyright (C) 2001 Normand Mousseau and (C) 2010–2011 the BigDFT group. The original copyright and license notices are kept in every file, and each modified file carries a notice describing the changes.
+
+This patch is distributed under the GNU General Public License v3.0; see `LICENSE`.
